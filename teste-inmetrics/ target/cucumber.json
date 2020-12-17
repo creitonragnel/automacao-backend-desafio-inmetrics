@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 450962200,
+              "duration": 479648700,
               "status": "passed"
             },
             "match": {
@@ -23,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 97695800,
+              "duration": 111803900,
               "status": "passed"
             },
             "line": 5,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 6647399900,
+              "duration": 3451248799,
               "status": "passed"
             },
             "line": 6,
@@ -91,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 26245500,
+              "duration": 23712200,
               "status": "passed"
             },
             "line": 7,
@@ -109,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 14637900,
+              "duration": 15082700,
               "status": "passed"
             },
             "line": 8,
@@ -131,7 +131,7 @@
         "before": [
           {
             "result": {
-              "duration": 560600,
+              "duration": 527900,
               "status": "passed"
             },
             "match": {
@@ -148,7 +148,7 @@
         "steps": [
           {
             "result": {
-              "duration": 122200,
+              "duration": 166900,
               "status": "passed"
             },
             "line": 12,
@@ -166,7 +166,7 @@
           },
           {
             "result": {
-              "duration": 3022063000,
+              "duration": 1394424200,
               "status": "passed"
             },
             "line": 13,
@@ -184,7 +184,7 @@
           },
           {
             "result": {
-              "duration": 567300,
+              "duration": 565400,
               "status": "passed"
             },
             "line": 14,
@@ -212,7 +212,7 @@
         "before": [
           {
             "result": {
-              "duration": 452400,
+              "duration": 468800,
               "status": "passed"
             },
             "match": {
@@ -229,7 +229,7 @@
         "steps": [
           {
             "result": {
-              "duration": 125200,
+              "duration": 134600,
               "status": "passed"
             },
             "line": 18,
@@ -247,7 +247,7 @@
           },
           {
             "result": {
-              "duration": 4204468600,
+              "duration": 1607094400,
               "status": "passed"
             },
             "line": 19,
@@ -265,7 +265,7 @@
           },
           {
             "result": {
-              "duration": 712600,
+              "duration": 478100,
               "status": "passed"
             },
             "line": 20,
@@ -283,7 +283,7 @@
           },
           {
             "result": {
-              "duration": 266300,
+              "duration": 332900,
               "status": "passed"
             },
             "line": 21,
@@ -311,7 +311,7 @@
         "before": [
           {
             "result": {
-              "duration": 1943100,
+              "duration": 1414401,
               "status": "passed"
             },
             "match": {
@@ -328,7 +328,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2592647500,
+              "duration": 1822895000,
               "status": "passed"
             },
             "line": 25,
@@ -346,7 +346,7 @@
           },
           {
             "result": {
-              "duration": 2020100,
+              "duration": 1350100,
               "status": "passed"
             },
             "line": 26,
@@ -374,7 +374,7 @@
         "before": [
           {
             "result": {
-              "duration": 2382500,
+              "duration": 1013500,
               "status": "passed"
             },
             "match": {
@@ -391,7 +391,7 @@
         "steps": [
           {
             "result": {
-              "duration": 372400,
+              "duration": 306399,
               "status": "passed"
             },
             "line": 30,
@@ -441,7 +441,7 @@
           },
           {
             "result": {
-              "duration": 117800,
+              "duration": 66700,
               "status": "passed"
             },
             "line": 31,
@@ -459,7 +459,7 @@
           },
           {
             "result": {
-              "duration": 1420231800,
+              "duration": 6016943799,
               "status": "passed"
             },
             "line": 32,
@@ -477,7 +477,7 @@
           },
           {
             "result": {
-              "duration": 1048800,
+              "duration": 294901,
               "status": "passed"
             },
             "line": 33,
@@ -495,7 +495,7 @@
           },
           {
             "result": {
-              "duration": 855000,
+              "duration": 192900,
               "status": "passed"
             },
             "line": 34,
@@ -517,7 +517,7 @@
         "before": [
           {
             "result": {
-              "duration": 1476700,
+              "duration": 380601,
               "status": "passed"
             },
             "match": {
@@ -526,15 +526,15 @@
           }
         ],
         "line": 37,
-        "name": "006 POST - Cadastrar empregado sem informar dados vazios",
+        "name": "006 POST - Cadastrar empregado sem informar dados",
         "description": "",
-        "id": "manter-usuários---empregado-controller;006-post---cadastrar-empregado-sem-informar-dados-vazios",
+        "id": "manter-usuários---empregado-controller;006-post---cadastrar-empregado-sem-informar-dados",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 319000,
+              "duration": 153400,
               "status": "passed"
             },
             "line": 38,
@@ -584,7 +584,7 @@
           },
           {
             "result": {
-              "duration": 1692486600,
+              "duration": 1414910600,
               "status": "passed"
             },
             "line": 39,
@@ -602,7 +602,7 @@
           },
           {
             "result": {
-              "duration": 1095100,
+              "duration": 321400,
               "status": "passed"
             },
             "line": 40,
@@ -620,7 +620,7 @@
           },
           {
             "result": {
-              "duration": 1129700,
+              "duration": 405800,
               "status": "passed"
             },
             "line": 41,
@@ -648,7 +648,7 @@
         "before": [
           {
             "result": {
-              "duration": 1901500,
+              "duration": 390000,
               "status": "passed"
             },
             "match": {
@@ -665,7 +665,7 @@
         "steps": [
           {
             "result": {
-              "duration": 608600,
+              "duration": 154700,
               "status": "passed"
             },
             "line": 45,
@@ -715,7 +715,7 @@
           },
           {
             "result": {
-              "duration": 2173306100,
+              "duration": 1289163600,
               "status": "passed"
             },
             "line": 46,
@@ -733,7 +733,7 @@
           },
           {
             "result": {
-              "duration": 851000,
+              "duration": 329500,
               "status": "passed"
             },
             "line": 47,
@@ -751,7 +751,7 @@
           },
           {
             "result": {
-              "duration": 976500,
+              "duration": 342401,
               "status": "passed"
             },
             "line": 48,
@@ -779,7 +779,7 @@
         "before": [
           {
             "result": {
-              "duration": 726700,
+              "duration": 506701,
               "status": "passed"
             },
             "match": {
@@ -796,7 +796,7 @@
         "steps": [
           {
             "result": {
-              "duration": 325500,
+              "duration": 212700,
               "status": "passed"
             },
             "line": 52,
@@ -846,7 +846,7 @@
           },
           {
             "result": {
-              "duration": 3829416100,
+              "duration": 1596277300,
               "status": "passed"
             },
             "line": 53,
@@ -864,7 +864,7 @@
           },
           {
             "result": {
-              "duration": 3499400,
+              "duration": 3310900,
               "status": "passed"
             },
             "line": 54,
@@ -882,7 +882,7 @@
           },
           {
             "result": {
-              "duration": 545800,
+              "duration": 629100,
               "status": "passed"
             },
             "line": 55,
@@ -910,7 +910,7 @@
         "before": [
           {
             "result": {
-              "duration": 849800,
+              "duration": 940700,
               "status": "passed"
             },
             "match": {
@@ -927,7 +927,7 @@
         "steps": [
           {
             "result": {
-              "duration": 308900,
+              "duration": 353600,
               "status": "passed"
             },
             "line": 59,
@@ -977,7 +977,7 @@
           },
           {
             "result": {
-              "duration": 2793466400,
+              "duration": 1892918001,
               "status": "passed"
             },
             "line": 60,
@@ -995,7 +995,7 @@
           },
           {
             "result": {
-              "duration": 337500,
+              "duration": 468300,
               "status": "passed"
             },
             "line": 61,
@@ -1013,7 +1013,7 @@
           },
           {
             "result": {
-              "duration": 253400,
+              "duration": 419800,
               "status": "passed"
             },
             "line": 62,
@@ -1041,7 +1041,7 @@
         "before": [
           {
             "result": {
-              "duration": 354200,
+              "duration": 624700,
               "status": "passed"
             },
             "match": {
@@ -1058,7 +1058,7 @@
         "steps": [
           {
             "result": {
-              "duration": 227500,
+              "duration": 326800,
               "status": "passed"
             },
             "line": 66,
@@ -1108,7 +1108,7 @@
           },
           {
             "result": {
-              "duration": 2705072700,
+              "duration": 1316720699,
               "status": "passed"
             },
             "line": 67,
@@ -1126,7 +1126,7 @@
           },
           {
             "result": {
-              "duration": 860900,
+              "duration": 392200,
               "status": "passed"
             },
             "line": 68,
@@ -1144,7 +1144,7 @@
           },
           {
             "result": {
-              "duration": 279500,
+              "duration": 287401,
               "status": "passed"
             },
             "line": 69,
@@ -1172,7 +1172,7 @@
         "before": [
           {
             "result": {
-              "duration": 485600,
+              "duration": 614101,
               "status": "passed"
             },
             "match": {
@@ -1189,7 +1189,7 @@
         "steps": [
           {
             "result": {
-              "duration": 155500,
+              "duration": 356600,
               "status": "passed"
             },
             "line": 73,
@@ -1239,7 +1239,7 @@
           },
           {
             "result": {
-              "duration": 2513957500,
+              "duration": 2863510700,
               "status": "passed"
             },
             "line": 74,
@@ -1257,7 +1257,7 @@
           },
           {
             "result": {
-              "duration": 678600,
+              "duration": 392600,
               "status": "passed"
             },
             "line": 75,
@@ -1275,7 +1275,7 @@
           },
           {
             "result": {
-              "duration": 483800,
+              "duration": 821400,
               "status": "passed"
             },
             "line": 76,
@@ -1303,7 +1303,7 @@
         "before": [
           {
             "result": {
-              "duration": 636000,
+              "duration": 405901,
               "status": "passed"
             },
             "match": {
@@ -1320,7 +1320,7 @@
         "steps": [
           {
             "result": {
-              "duration": 331100,
+              "duration": 223800,
               "status": "passed"
             },
             "line": 80,
@@ -1370,7 +1370,7 @@
           },
           {
             "result": {
-              "duration": 3423513900,
+              "duration": 2133127900,
               "status": "passed"
             },
             "line": 81,
@@ -1388,7 +1388,7 @@
           },
           {
             "result": {
-              "duration": 440600,
+              "duration": 352200,
               "status": "passed"
             },
             "line": 82,
@@ -1406,7 +1406,7 @@
           },
           {
             "result": {
-              "duration": 257700,
+              "duration": 368300,
               "status": "passed"
             },
             "line": 83,
@@ -1426,6 +1426,1330 @@
         "tags": [
           {
             "line": 78,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 601300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 86,
+        "name": "013 POST - Cadastrar empregado informar departamento não cadastrado",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;013-post---cadastrar-empregado-informar-departamento-não-cadastrado",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 275900,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API\" cargo \"Analista\" comissão \"1.000,00\" data de admissão \"15/01/2020\" CPF \"031.876.670-15\" id do departamento \"10\" salário \"3.500,00\" sexo \"i\" tipo de contratacao \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 73
+                },
+                {
+                  "val": "1.000,00",
+                  "offset": 93
+                },
+                {
+                  "val": "15/01/2020",
+                  "offset": 121
+                },
+                {
+                  "val": "031.876.670-15",
+                  "offset": 138
+                },
+                {
+                  "val": "10",
+                  "offset": 174
+                },
+                {
+                  "val": "3.500,00",
+                  "offset": 187
+                },
+                {
+                  "val": "i",
+                  "offset": 203
+                },
+                {
+                  "val": "clt",
+                  "offset": 227
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2393141001,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Eu submeter o endpoint \"empregado/cadastrar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/cadastrar",
+                  "offset": 24
+                }
+              ],
+              "location": "UsuarioSteps.submeter_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 389099,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 365599,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "A mensagem de erro \"Departamento não cadastrado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Departamento não cadastrado",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 85,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 814500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 93,
+        "name": "014 PUT - Alterar cadastro do empregado informar departamento não cadastrado",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;014-put---alterar-cadastro-do-empregado-informar-departamento-não-cadastrado",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 285300,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API Alterado\" cargo \"Analista\" comissão \"1.000,00\" data de admissão \"15/01/2020\" CPF \"031.876.670-15\" id do departamento \"10\" salário \"3.500,00\" sexo \"f\" tipo de contratacao \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API Alterado",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 82
+                },
+                {
+                  "val": "1.000,00",
+                  "offset": 102
+                },
+                {
+                  "val": "15/01/2020",
+                  "offset": 130
+                },
+                {
+                  "val": "031.876.670-15",
+                  "offset": 147
+                },
+                {
+                  "val": "10",
+                  "offset": 183
+                },
+                {
+                  "val": "3.500,00",
+                  "offset": 196
+                },
+                {
+                  "val": "f",
+                  "offset": 212
+                },
+                {
+                  "val": "clt",
+                  "offset": 236
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55800,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "Que eu possuo o id do empregado \"6045\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6045",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.id_empregado(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2954374599,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "Eu submeter o endpoint empregado alterar \"empregado/alterar/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/alterar/",
+                  "offset": 42
+                }
+              ],
+              "location": "UsuarioSteps.put_endpoint_empregado(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 349101,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 554200,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat br.com.inmetrics.teste.support.UsuarioSteps.mensagem_erro(UsuarioSteps.java:123)\r\n\tat ✽.And A mensagem de erro \"Departamento não cadastrado\"(usuario.feature:98)\r\n",
+              "status": "failed"
+            },
+            "line": 98,
+            "name": "A mensagem de erro \"Departamento não cadastrado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Departamento não cadastrado",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 92,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 318801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 101,
+        "name": "015 PUT - Alterar cadastro do empregado sem informar dados",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;015-put---alterar-cadastro-do-empregado-sem-informar-dados",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 126800,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Que eu informo os dados do empregado nome \"\" cargo \"\" comissão \"\" data de admissão \"\" CPF \"\" id do departamento \"\" salário \"\" sexo \"\" tipo de contratacao \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 43
+                },
+                {
+                  "val": "",
+                  "offset": 52
+                },
+                {
+                  "val": "",
+                  "offset": 64
+                },
+                {
+                  "val": "",
+                  "offset": 84
+                },
+                {
+                  "val": "",
+                  "offset": 91
+                },
+                {
+                  "val": "",
+                  "offset": 113
+                },
+                {
+                  "val": "",
+                  "offset": 124
+                },
+                {
+                  "val": "",
+                  "offset": 132
+                },
+                {
+                  "val": "",
+                  "offset": 155
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32800,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "Que eu possuo o id do empregado \"6045\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6045",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.id_empregado(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2936583699,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "Eu submeter o endpoint empregado alterar \"empregado/alterar/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/alterar/",
+                  "offset": 42
+                }
+              ],
+              "location": "UsuarioSteps.put_endpoint_empregado(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 273901,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 442000,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "A mensagem de erro \"admissao: must not be blank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admissao: must not be blank",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 100,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2263100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 109,
+        "name": "016 PUT - Alterar cadastro do empregado informar data de admissão fora do padrão 15/01/2020",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;016-put---alterar-cadastro-do-empregado-informar-data-de-admissão-fora-do-padrão-15/01/2020",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 399300,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API\" cargo \"Analista\" comissão \"1.000,00\" data de admissão \"15012020\" CPF \"031.876.670-15\" id do departamento \"1\" salário \"3.500,00\" sexo \"f\" tipo de contratacao \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 73
+                },
+                {
+                  "val": "1.000,00",
+                  "offset": 93
+                },
+                {
+                  "val": "15012020",
+                  "offset": 121
+                },
+                {
+                  "val": "031.876.670-15",
+                  "offset": 136
+                },
+                {
+                  "val": "1",
+                  "offset": 172
+                },
+                {
+                  "val": "3.500,00",
+                  "offset": 184
+                },
+                {
+                  "val": "f",
+                  "offset": 200
+                },
+                {
+                  "val": "clt",
+                  "offset": 224
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46401,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "Que eu possuo o id do empregado \"6045\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6045",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.id_empregado(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2654125601,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "Eu submeter o endpoint empregado alterar \"empregado/alterar/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/alterar/",
+                  "offset": 42
+                }
+              ],
+              "location": "UsuarioSteps.put_endpoint_empregado(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2189800,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 269700,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "A mensagem de erro \"admissao: deve estar no padrão 31/12/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admissao: deve estar no padrão 31/12/2020",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 108,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 703001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 117,
+        "name": "017 PUT - Alterar cadastro do empregado informar comissão fora do padrão 1.000,00",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;017-put---alterar-cadastro-do-empregado-informar-comissão-fora-do-padrão-1.000,00",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 200199,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API\" cargo \"Analista\" comissão \"1000,00\" data de admissão \"15/01/2020\" CPF \"031.876.670-15\" id do departamento \"1\" salário \"3.500,00\" sexo \"f\" tipo de contratacao \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 73
+                },
+                {
+                  "val": "1000,00",
+                  "offset": 93
+                },
+                {
+                  "val": "15/01/2020",
+                  "offset": 120
+                },
+                {
+                  "val": "031.876.670-15",
+                  "offset": 137
+                },
+                {
+                  "val": "1",
+                  "offset": 173
+                },
+                {
+                  "val": "3.500,00",
+                  "offset": 185
+                },
+                {
+                  "val": "f",
+                  "offset": 201
+                },
+                {
+                  "val": "clt",
+                  "offset": 225
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42899,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "Que eu possuo o id do empregado \"6045\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6045",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.id_empregado(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2859661700,
+              "status": "passed"
+            },
+            "line": 120,
+            "name": "Eu submeter o endpoint empregado alterar \"empregado/alterar/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/alterar/",
+                  "offset": 42
+                }
+              ],
+              "location": "UsuarioSteps.put_endpoint_empregado(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 377699,
+              "status": "passed"
+            },
+            "line": 121,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 269700,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "A mensagem de erro \"comissao: deve estar no padrão 1.000,00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comissao: deve estar no padrão 1.000,00",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 116,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 677200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 125,
+        "name": "018 PUT - Alterar cadastro do empregado informar tipo contratacao fora do padrão: pj ou clt",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;018-put---alterar-cadastro-do-empregado-informar-tipo-contratacao-fora-do-padrão:-pj-ou-clt",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 261800,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API\" cargo \"Analista\" comissão \"1.000,00\" data de admissão \"15/01/2020\" CPF \"031.876.670-15\" id do departamento \"1\" salário \"3.500,00\" sexo \"f\" tipo de contratacao \"outro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 73
+                },
+                {
+                  "val": "1.000,00",
+                  "offset": 93
+                },
+                {
+                  "val": "15/01/2020",
+                  "offset": 121
+                },
+                {
+                  "val": "031.876.670-15",
+                  "offset": 138
+                },
+                {
+                  "val": "1",
+                  "offset": 174
+                },
+                {
+                  "val": "3.500,00",
+                  "offset": 186
+                },
+                {
+                  "val": "f",
+                  "offset": 202
+                },
+                {
+                  "val": "outro",
+                  "offset": 226
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41199,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "Que eu possuo o id do empregado \"6045\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6045",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.id_empregado(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2460111900,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "Eu submeter o endpoint empregado alterar \"empregado/alterar/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/alterar/",
+                  "offset": 42
+                }
+              ],
+              "location": "UsuarioSteps.put_endpoint_empregado(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 455700,
+              "status": "passed"
+            },
+            "line": 129,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 762500,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "A mensagem de erro \"tipoContratacao: pj ou clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tipoContratacao: pj ou clt",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 124,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 497201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 133,
+        "name": "019 PUT - Alterar cadastro do empregado informar salario fora do padrão 1.000,00",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;019-put---alterar-cadastro-do-empregado-informar-salario-fora-do-padrão-1.000,00",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 502800,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API\" cargo \"Analista\" comissão \"1.000,00\" data de admissão \"15/01/2020\" CPF \"031.876.670-15\" id do departamento \"1\" salário \"3500,00\" sexo \"f\" tipo de contratacao \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 73
+                },
+                {
+                  "val": "1.000,00",
+                  "offset": 93
+                },
+                {
+                  "val": "15/01/2020",
+                  "offset": 121
+                },
+                {
+                  "val": "031.876.670-15",
+                  "offset": 138
+                },
+                {
+                  "val": "1",
+                  "offset": 174
+                },
+                {
+                  "val": "3500,00",
+                  "offset": 186
+                },
+                {
+                  "val": "f",
+                  "offset": 201
+                },
+                {
+                  "val": "clt",
+                  "offset": 225
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49300,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "Que eu possuo o id do empregado \"6045\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6045",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.id_empregado(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2217037000,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "Eu submeter o endpoint empregado alterar \"empregado/alterar/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/alterar/",
+                  "offset": 42
+                }
+              ],
+              "location": "UsuarioSteps.put_endpoint_empregado(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1039500,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 266501,
+              "status": "passed"
+            },
+            "line": 138,
+            "name": "A mensagem de erro \"salario: deve estar no padrão 1.000,00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "salario: deve estar no padrão 1.000,00",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 132,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 311200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 141,
+        "name": "020 PUT - Alterar cadastro do empregado informar cpf fora do padrão 111.222.333-00",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;020-put---alterar-cadastro-do-empregado-informar-cpf-fora-do-padrão-111.222.333-00",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 180400,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API\" cargo \"Analista\" comissão \"1.000,00\" data de admissão \"15/01/2020\" CPF \"03187667015\" id do departamento \"1\" salário \"3.500,00\" sexo \"f\" tipo de contratacao \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 73
+                },
+                {
+                  "val": "1.000,00",
+                  "offset": 93
+                },
+                {
+                  "val": "15/01/2020",
+                  "offset": 121
+                },
+                {
+                  "val": "03187667015",
+                  "offset": 138
+                },
+                {
+                  "val": "1",
+                  "offset": 171
+                },
+                {
+                  "val": "3.500,00",
+                  "offset": 183
+                },
+                {
+                  "val": "f",
+                  "offset": 199
+                },
+                {
+                  "val": "clt",
+                  "offset": 223
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31700,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "Que eu possuo o id do empregado \"6045\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6045",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.id_empregado(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1612556800,
+              "status": "passed"
+            },
+            "line": 144,
+            "name": "Eu submeter o endpoint empregado alterar \"empregado/alterar/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/alterar/",
+                  "offset": 42
+                }
+              ],
+              "location": "UsuarioSteps.put_endpoint_empregado(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1053899,
+              "status": "passed"
+            },
+            "line": 145,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 214300,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "A mensagem de erro \"cpf: deve estar no padrão 111.222.333-00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cpf: deve estar no padrão 111.222.333-00",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 140,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 335400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 149,
+        "name": "021 PUT - Alterar cadastro do empregado informar sexo fora do padrão m, f ou i",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;021-put---alterar-cadastro-do-empregado-informar-sexo-fora-do-padrão-m,-f-ou-i",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 161900,
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API\" cargo \"Analista\" comissão \"1.000,00\" data de admissão \"15/01/2020\" CPF \"031.876.670-15\" id do departamento \"1\" salário \"3.500,00\" sexo \"o\" tipo de contratacao \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 73
+                },
+                {
+                  "val": "1.000,00",
+                  "offset": 93
+                },
+                {
+                  "val": "15/01/2020",
+                  "offset": 121
+                },
+                {
+                  "val": "031.876.670-15",
+                  "offset": 138
+                },
+                {
+                  "val": "1",
+                  "offset": 174
+                },
+                {
+                  "val": "3.500,00",
+                  "offset": 186
+                },
+                {
+                  "val": "o",
+                  "offset": 202
+                },
+                {
+                  "val": "clt",
+                  "offset": 226
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42300,
+              "status": "passed"
+            },
+            "line": 151,
+            "name": "Que eu possuo o id do empregado \"6045\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6045",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.id_empregado(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2333393900,
+              "status": "passed"
+            },
+            "line": 152,
+            "name": "Eu submeter o endpoint empregado alterar \"empregado/alterar/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/alterar/",
+                  "offset": 42
+                }
+              ],
+              "location": "UsuarioSteps.put_endpoint_empregado(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 375000,
+              "status": "passed"
+            },
+            "line": 153,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 502300,
+              "status": "passed"
+            },
+            "line": 154,
+            "name": "A mensagem de erro \"sexo: m, f ou i\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sexo: m, f ou i",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 148,
             "name": "@regressivo"
           }
         ]
