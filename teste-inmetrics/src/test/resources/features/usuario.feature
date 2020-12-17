@@ -7,20 +7,20 @@ Feature: Manter usuários - Empregado Controller
     Then A API deve retornar status code "202"
     And A API deve retonar os dados do empregado
   
-  @regressivo
+  @smoke @regressivo
   Scenario: 002 GET - Listar empregado cadastrado
   	Given Que eu possuo o id do empregado "6045"
     When Eu executar um get no endpoint "empregado/list/"
     Then A API deve retornar status code "202"
   
-  @regressivo
+  @smoke @regressivo
   Scenario: 003 GET - Listar empregado não cadastrado
     Given Que eu possuo o id do empregado "0000"
     When Eu executar um get no endpoint "empregado/list/"
     Then A API deve retornar status code "400"
     And A mensagem "Empregado não cadastrado"
   
-  @regressivo
+  @smoke @regressivo
   Scenario: 004 GET - Listar todos os empregados
     When Eu executar um get no endpoint empregado list_all "empregado/list_all"
     Then A API deve retornar status code "200"
@@ -82,14 +82,14 @@ Feature: Manter usuários - Empregado Controller
     Then A API deve retornar status code "400"
     And A mensagem de erro "sexo: m, f ou i"
     
-  @smoke @regressivo
+  @regressivo
   Scenario: 013 POST - Cadastrar empregado informar departamento não cadastrado
     Given Que eu informo os dados do empregado nome "Desafio Inmetrics API" cargo "Analista" comissão "1.000,00" data de admissão "15/01/2020" CPF "031.876.670-15" id do departamento "10" salário "3.500,00" sexo "i" tipo de contratacao "clt"
     When Eu submeter o endpoint "empregado/cadastrar"
     Then A API deve retornar status code "400"
     And A mensagem "Departamento não cadastrado"
     
-  @smoke @regressivo
+  @regressivo
   Scenario: 014 PUT - Alterar cadastro do empregado informar departamento não cadastrado
     Given Que eu informo os dados do empregado nome "Desafio Inmetrics API Alterado" cargo "Analista" comissão "1.000,00" data de admissão "15/01/2020" CPF "031.876.670-15" id do departamento "10" salário "3.500,00" sexo "f" tipo de contratacao "clt"
     And Que eu possuo o id do empregado "6045"
