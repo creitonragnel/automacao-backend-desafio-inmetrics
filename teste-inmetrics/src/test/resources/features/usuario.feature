@@ -82,20 +82,20 @@ Feature: Manter usuários - Empregado Controller
     Then A API deve retornar status code "400"
     And A mensagem de erro "sexo: m, f ou i"
     
-  @regressivo  
+  @smoke @regressivo
   Scenario: 013 POST - Cadastrar empregado informar departamento não cadastrado
     Given Que eu informo os dados do empregado nome "Desafio Inmetrics API" cargo "Analista" comissão "1.000,00" data de admissão "15/01/2020" CPF "031.876.670-15" id do departamento "10" salário "3.500,00" sexo "i" tipo de contratacao "clt"
     When Eu submeter o endpoint "empregado/cadastrar"
     Then A API deve retornar status code "400"
-    And A mensagem de erro "Departamento não cadastrado"
+    And A mensagem "Departamento não cadastrado"
     
-  @regressivo  
+  @smoke @regressivo
   Scenario: 014 PUT - Alterar cadastro do empregado informar departamento não cadastrado
     Given Que eu informo os dados do empregado nome "Desafio Inmetrics API Alterado" cargo "Analista" comissão "1.000,00" data de admissão "15/01/2020" CPF "031.876.670-15" id do departamento "10" salário "3.500,00" sexo "f" tipo de contratacao "clt"
     And Que eu possuo o id do empregado "6045"
     When Eu submeter o endpoint empregado alterar "empregado/alterar/"
     Then A API deve retornar status code "400"
-    And A mensagem de erro "Departamento não cadastrado"
+    And A mensagem "Departamento não cadastrado"
     
   @regressivo  
   Scenario: 015 PUT - Alterar cadastro do empregado sem informar dados

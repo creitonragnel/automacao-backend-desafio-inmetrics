@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "src/test/resources/features/", 
 	glue = { "" }, 
 	plugin = {"json: target/cucumber.json"},
-	monochrome = false, dryRun = false, strict = false, tags = {"@regressivo"})
+	monochrome = true, dryRun = false, strict = false, tags = {"@regressivo"})
 public class RunCucumberTest {
 	
 }
