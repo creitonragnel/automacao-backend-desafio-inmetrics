@@ -1,0 +1,1440 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 450962200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "001 POST - Cadastrar empregado com sucesso",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;001-post---cadastrar-empregado-com-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 97695800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API\" cargo \"Analista\" comissão \"1.000,00\" data de admissão \"15/01/2020\" CPF \"031.876.670-15\" id do departamento \"1\" salário \"3.500,00\" sexo \"f\" tipo de contratacao \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 73
+                },
+                {
+                  "val": "1.000,00",
+                  "offset": 93
+                },
+                {
+                  "val": "15/01/2020",
+                  "offset": 121
+                },
+                {
+                  "val": "031.876.670-15",
+                  "offset": 138
+                },
+                {
+                  "val": "1",
+                  "offset": 174
+                },
+                {
+                  "val": "3.500,00",
+                  "offset": 186
+                },
+                {
+                  "val": "f",
+                  "offset": 202
+                },
+                {
+                  "val": "clt",
+                  "offset": 226
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6647399900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Eu submeter o endpoint \"empregado/cadastrar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/cadastrar",
+                  "offset": 24
+                }
+              ],
+              "location": "UsuarioSteps.submeter_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26245500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "A API deve retornar status code \"202\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "202",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14637900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "A API deve retonar os dados do empregado",
+            "match": {
+              "location": "UsuarioSteps.a_api_deve_retornar_os_dados_do_empregado()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 560600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "002 GET - Listar empregado cadastrado",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;002-get---listar-empregado-cadastrado",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 122200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Que eu possuo o id do empregado \"6045\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6045",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.id_empregado(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3022063000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Eu executar um get no endpoint \"empregado/list/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/list/",
+                  "offset": 32
+                }
+              ],
+              "location": "UsuarioSteps.get_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 567300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "A API deve retornar status code \"202\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "202",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 452400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "003 GET - Listar empregado não cadastrado",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;003-get---listar-empregado-não-cadastrado",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 125200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Que eu possuo o id do empregado \"0000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0000",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.id_empregado(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4204468600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Eu executar um get no endpoint \"empregado/list/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/list/",
+                  "offset": 32
+                }
+              ],
+              "location": "UsuarioSteps.get_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 712600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 266300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "A mensagem \"Empregado não cadastrado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Empregado não cadastrado",
+                  "offset": 12
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_retorno(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1943100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "004 GET - Listar todos os empregados",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;004-get---listar-todos-os-empregados",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2592647500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Eu executar um get no endpoint empregado list_all \"empregado/list_all\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/list_all",
+                  "offset": 51
+                }
+              ],
+              "location": "UsuarioSteps.get_endpoint_empregado_list_all(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2020100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "A API deve retornar status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2382500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "005 PUT - Alterar cadastro do empregado",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;005-put---alterar-cadastro-do-empregado",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 372400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API Alterado\" cargo \"Analista\" comissão \"1.000,00\" data de admissão \"15/01/2020\" CPF \"031.876.670-15\" id do departamento \"1\" salário \"3.500,00\" sexo \"f\" tipo de contratacao \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API Alterado",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 82
+                },
+                {
+                  "val": "1.000,00",
+                  "offset": 102
+                },
+                {
+                  "val": "15/01/2020",
+                  "offset": 130
+                },
+                {
+                  "val": "031.876.670-15",
+                  "offset": 147
+                },
+                {
+                  "val": "1",
+                  "offset": 183
+                },
+                {
+                  "val": "3.500,00",
+                  "offset": 195
+                },
+                {
+                  "val": "f",
+                  "offset": 211
+                },
+                {
+                  "val": "clt",
+                  "offset": 235
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Que eu possuo o id do empregado \"6045\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6045",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.id_empregado(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1420231800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Eu submeter o endpoint empregado alterar \"empregado/alterar/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/alterar/",
+                  "offset": 42
+                }
+              ],
+              "location": "UsuarioSteps.put_endpoint_empregado(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1048800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "A API deve retornar status code \"202\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "202",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 855000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "A API deve retonar os dados do empregado",
+            "match": {
+              "location": "UsuarioSteps.a_api_deve_retornar_os_dados_do_empregado()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1476700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "006 POST - Cadastrar empregado sem informar dados vazios",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;006-post---cadastrar-empregado-sem-informar-dados-vazios",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 319000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Que eu informo os dados do empregado nome \"\" cargo \"\" comissão \"\" data de admissão \"\" CPF \"\" id do departamento \"\" salário \"\" sexo \"\" tipo de contratacao \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 43
+                },
+                {
+                  "val": "",
+                  "offset": 52
+                },
+                {
+                  "val": "",
+                  "offset": 64
+                },
+                {
+                  "val": "",
+                  "offset": 84
+                },
+                {
+                  "val": "",
+                  "offset": 91
+                },
+                {
+                  "val": "",
+                  "offset": 113
+                },
+                {
+                  "val": "",
+                  "offset": 124
+                },
+                {
+                  "val": "",
+                  "offset": 132
+                },
+                {
+                  "val": "",
+                  "offset": 155
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1692486600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Eu submeter o endpoint \"empregado/cadastrar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/cadastrar",
+                  "offset": 24
+                }
+              ],
+              "location": "UsuarioSteps.submeter_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1095100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1129700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "A mensagem de erro \"admissao: must not be blank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admissao: must not be blank",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1901500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "007 POST - Cadastrar empregado informar data de admissão fora do padrão 15/01/2020",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;007-post---cadastrar-empregado-informar-data-de-admissão-fora-do-padrão-15/01/2020",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 608600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API\" cargo \"Analista\" comissão \"1.000,00\" data de admissão \"15012020\" CPF \"031.876.670-15\" id do departamento \"1\" salário \"3.500,00\" sexo \"f\" tipo de contratacao \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 73
+                },
+                {
+                  "val": "1.000,00",
+                  "offset": 93
+                },
+                {
+                  "val": "15012020",
+                  "offset": 121
+                },
+                {
+                  "val": "031.876.670-15",
+                  "offset": 136
+                },
+                {
+                  "val": "1",
+                  "offset": 172
+                },
+                {
+                  "val": "3.500,00",
+                  "offset": 184
+                },
+                {
+                  "val": "f",
+                  "offset": 200
+                },
+                {
+                  "val": "clt",
+                  "offset": 224
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2173306100,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Eu submeter o endpoint \"empregado/cadastrar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/cadastrar",
+                  "offset": 24
+                }
+              ],
+              "location": "UsuarioSteps.submeter_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 851000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 976500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "A mensagem de erro \"admissao: deve estar no padrão 31/12/2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admissao: deve estar no padrão 31/12/2020",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 726700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "008 POST - Cadastrar empregado informar comissão fora do padrão 1.000,00",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;008-post---cadastrar-empregado-informar-comissão-fora-do-padrão-1.000,00",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 325500,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API\" cargo \"Analista\" comissão \"1000,00\" data de admissão \"15/01/2020\" CPF \"031.876.670-15\" id do departamento \"1\" salário \"3.500,00\" sexo \"f\" tipo de contratacao \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 73
+                },
+                {
+                  "val": "1000,00",
+                  "offset": 93
+                },
+                {
+                  "val": "15/01/2020",
+                  "offset": 120
+                },
+                {
+                  "val": "031.876.670-15",
+                  "offset": 137
+                },
+                {
+                  "val": "1",
+                  "offset": 173
+                },
+                {
+                  "val": "3.500,00",
+                  "offset": 185
+                },
+                {
+                  "val": "f",
+                  "offset": 201
+                },
+                {
+                  "val": "clt",
+                  "offset": 225
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3829416100,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Eu submeter o endpoint \"empregado/cadastrar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/cadastrar",
+                  "offset": 24
+                }
+              ],
+              "location": "UsuarioSteps.submeter_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3499400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 545800,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "A mensagem de erro \"comissao: deve estar no padrão 1.000,00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "comissao: deve estar no padrão 1.000,00",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 50,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 849800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "009 POST - Cadastrar empregado informar tipo contratacao fora do padrão: pj ou clt",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;009-post---cadastrar-empregado-informar-tipo-contratacao-fora-do-padrão:-pj-ou-clt",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 308900,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API\" cargo \"Analista\" comissão \"1.000,00\" data de admissão \"15/01/2020\" CPF \"031.876.670-15\" id do departamento \"1\" salário \"3.500,00\" sexo \"f\" tipo de contratacao \"outro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 73
+                },
+                {
+                  "val": "1.000,00",
+                  "offset": 93
+                },
+                {
+                  "val": "15/01/2020",
+                  "offset": 121
+                },
+                {
+                  "val": "031.876.670-15",
+                  "offset": 138
+                },
+                {
+                  "val": "1",
+                  "offset": 174
+                },
+                {
+                  "val": "3.500,00",
+                  "offset": 186
+                },
+                {
+                  "val": "f",
+                  "offset": 202
+                },
+                {
+                  "val": "outro",
+                  "offset": 226
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2793466400,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Eu submeter o endpoint \"empregado/cadastrar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/cadastrar",
+                  "offset": 24
+                }
+              ],
+              "location": "UsuarioSteps.submeter_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 337500,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 253400,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "A mensagem de erro \"tipoContratacao: pj ou clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tipoContratacao: pj ou clt",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 57,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 354200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "010 POST - Cadastrar empregado informar salario fora do padrão 1.000,00",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;010-post---cadastrar-empregado-informar-salario-fora-do-padrão-1.000,00",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 227500,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API\" cargo \"Analista\" comissão \"1.000,00\" data de admissão \"15/01/2020\" CPF \"031.876.670-15\" id do departamento \"1\" salário \"3500,00\" sexo \"f\" tipo de contratacao \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 73
+                },
+                {
+                  "val": "1.000,00",
+                  "offset": 93
+                },
+                {
+                  "val": "15/01/2020",
+                  "offset": 121
+                },
+                {
+                  "val": "031.876.670-15",
+                  "offset": 138
+                },
+                {
+                  "val": "1",
+                  "offset": 174
+                },
+                {
+                  "val": "3500,00",
+                  "offset": 186
+                },
+                {
+                  "val": "f",
+                  "offset": 201
+                },
+                {
+                  "val": "clt",
+                  "offset": 225
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2705072700,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Eu submeter o endpoint \"empregado/cadastrar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/cadastrar",
+                  "offset": 24
+                }
+              ],
+              "location": "UsuarioSteps.submeter_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 860900,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 279500,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "A mensagem de erro \"salario: deve estar no padrão 1.000,00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "salario: deve estar no padrão 1.000,00",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 64,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 485600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 72,
+        "name": "011 POST - Cadastrar empregado informar cpf fora do padrão 111.222.333-00",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;011-post---cadastrar-empregado-informar-cpf-fora-do-padrão-111.222.333-00",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 155500,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API\" cargo \"Analista\" comissão \"1.000,00\" data de admissão \"15/01/2020\" CPF \"03187667015\" id do departamento \"1\" salário \"3.500,00\" sexo \"f\" tipo de contratacao \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 73
+                },
+                {
+                  "val": "1.000,00",
+                  "offset": 93
+                },
+                {
+                  "val": "15/01/2020",
+                  "offset": 121
+                },
+                {
+                  "val": "03187667015",
+                  "offset": 138
+                },
+                {
+                  "val": "1",
+                  "offset": 171
+                },
+                {
+                  "val": "3.500,00",
+                  "offset": 183
+                },
+                {
+                  "val": "f",
+                  "offset": 199
+                },
+                {
+                  "val": "clt",
+                  "offset": 223
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2513957500,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Eu submeter o endpoint \"empregado/cadastrar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/cadastrar",
+                  "offset": 24
+                }
+              ],
+              "location": "UsuarioSteps.submeter_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 678600,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 483800,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "A mensagem de erro \"cpf: deve estar no padrão 111.222.333-00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cpf: deve estar no padrão 111.222.333-00",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 71,
+            "name": "@regressivo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 636000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InicializeTest()"
+            }
+          }
+        ],
+        "line": 79,
+        "name": "012 POST - Cadastrar empregado informar sexo fora do padrão m, f ou i",
+        "description": "",
+        "id": "manter-usuários---empregado-controller;012-post---cadastrar-empregado-informar-sexo-fora-do-padrão-m,-f-ou-i",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 331100,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "Que eu informo os dados do empregado nome \"Desafio Inmetrics API\" cargo \"Analista\" comissão \"1.000,00\" data de admissão \"15/01/2020\" CPF \"031.876.670-15\" id do departamento \"1\" salário \"3.500,00\" sexo \"o\" tipo de contratacao \"clt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desafio Inmetrics API",
+                  "offset": 43
+                },
+                {
+                  "val": "Analista",
+                  "offset": 73
+                },
+                {
+                  "val": "1.000,00",
+                  "offset": 93
+                },
+                {
+                  "val": "15/01/2020",
+                  "offset": 121
+                },
+                {
+                  "val": "031.876.670-15",
+                  "offset": 138
+                },
+                {
+                  "val": "1",
+                  "offset": 174
+                },
+                {
+                  "val": "3.500,00",
+                  "offset": 186
+                },
+                {
+                  "val": "o",
+                  "offset": 202
+                },
+                {
+                  "val": "clt",
+                  "offset": 226
+                }
+              ],
+              "location": "UsuarioSteps.informar_dados_empregado_cadastro(String,String,String,String,String,Integer,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3423513900,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Eu submeter o endpoint \"empregado/cadastrar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "empregado/cadastrar",
+                  "offset": 24
+                }
+              ],
+              "location": "UsuarioSteps.submeter_endpoint(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 440600,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "A API deve retornar status code \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 33
+                }
+              ],
+              "location": "UsuarioSteps.a_api_deve_retornar_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 257700,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "A mensagem de erro \"sexo: m, f ou i\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sexo: m, f ou i",
+                  "offset": 20
+                }
+              ],
+              "location": "UsuarioSteps.mensagem_erro(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 78,
+            "name": "@regressivo"
+          }
+        ]
+      }
+    ],
+    "name": "Manter usuários - Empregado Controller",
+    "description": "",
+    "id": "manter-usuários---empregado-controller",
+    "keyword": "Feature",
+    "uri": "usuario.feature"
+  }
+]

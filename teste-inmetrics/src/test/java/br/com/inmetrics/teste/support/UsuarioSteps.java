@@ -36,56 +36,25 @@ public class UsuarioSteps extends BaseUtil {
 
 	}
 	
-	@Given ("^Que eu informe o nome do empregado \"(.*)\"$")
-	public void informar_nome(String nome) throws Throwable {
+	@Given ("^Que eu possuo o id do empregado \"(.*)\"$")
+	public void id_empregado(String id) throws Throwable {
+		idEmpregado = id;
+	}
+	
+	@Given ("^Que eu informo os dados do empregado nome \"(.*)\" cargo \"(.*)\" comissão \"(.*)\" data de admissão \"(.*)\" CPF \"(.*)\" id do departamento \"(.*)\" salário \"(.*)\" sexo \"(.*)\" tipo de contratacao \"(.*)\"$")
+	public void informar_dados_empregado_cadastro(String nome, String cargo, String comissao, String admissao, String CPF, 
+			Integer departamento, String salario, String sexo, String tp_contratacao) throws Throwable {
 		nomeEmpregado = nome;
+		cargoEmpregado = cargo;
+		comissaoEmpregado = comissao;
+		admissaoEmpregado = admissao;
+		cpfEmpregado = CPF;
+		idDepartamento = departamento;
+		salarioEmpregado = salario;
+		sexoEmpregado = sexo;
+		tipoContratacaoEmpregado = tp_contratacao;
 	}
 	
-	@Given ("^Que eu possuo o id do empregado e desejo consultar seus dados$")
-	public void id_empregado() throws Throwable {
-		idEmpregado = "000";
-	}
-	
-    @And ("^Eu informe o cargo do empregado \"(.*)\"$")
-    public void informar_cargo(String cargo) throws Throwable {
-    	cargoEmpregado = cargo;
-	}
-    
-    @And ("^Eu informe o valor da comissão do empregado \"(.*)\"$")
-    public void informar_comissao(String comissao) throws Throwable {
-    	comissaoEmpregado = comissao;
-	}
-    
-    @And ("^Eu informe a data de admissão do empregado \"(.*)\"$")
-    public void informar_admissao(String admissao) throws Throwable {
-    	admissaoEmpregado = admissao;
-	}
-    
-    @And ("^Eu Informe o CPF do empregado \"(.*)\"$")
-    public void informar_cpf(String CPF) throws Throwable {
-    	cpfEmpregado = CPF;
-	}
-    
-    @And ("^Eu informe o id do departamento \"(.*)\"$")
-    public void informar_departamento(Integer departamento) throws Throwable {
-    	idDepartamento = departamento;
-	}
-    
-    @And ("^Eu informe o salário do empregado \"(.*)\"$")
-    public void informar_salario(String salario) throws Throwable {
-    	salarioEmpregado = salario;
-	}
-    
-    @And ("^Eu informe o sexo do empregado \"(.*)\"$")
-    public void informar_sexo(String sexo) throws Throwable {
-    	sexoEmpregado = sexo;
-	}
-    
-    @And ("^Eu informe o tipo de contratacao do empregado \"(.*)\"$")
-    public void informar_tipo_contratacao(String tp_contratacao) throws Throwable {
-    	tipoContratacaoEmpregado = tp_contratacao;
-	}
-    
     @When ("^Eu submeter o endpoint \"(.*)\"$")
     public void submeter_endpoint(String endpoint) throws Throwable {
     	
